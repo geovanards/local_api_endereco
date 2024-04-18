@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0dcff;
+}
+
+
+
+.p1{
+    text-align: center;
+    color: #604c8f
+}    
+
+.p2{
+    text-align: center;
+    color: #3f576b;
+
+}
+
+
+
+.botao {
+    width: 150px;
+    height: 50px; 
+    background-color: #724caf; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-left:18%;
+      
+}
+
+    

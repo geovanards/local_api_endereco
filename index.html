@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preenchimento</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+<style>
+    
+     .container {
+          border: 1px solid #ffffff;
+          padding: 20px;
+          width: 300px;
+          margin: 0 auto;
+    }
+
+      label {
+          display: flex;
+          margin-bottom: 5px;
+          
+    }
+
+      input {
+         width: 50%;
+         padding: 5px;
+         margin-bottom: 10px;
+    }
+
+     input[type="submit"] {
+         background-color: #ffffff;
+         color: rgb(255, 255, 255);
+         border: none;
+         padding: 10px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+         border-radius: 5px;
+    }
+    
+  
+
+      form{ 
+        margin-left: 35%;
+      }
+
+</style>
+<body>
+
+        <h2 class="p1" > Por favor, preencha seu endereço:</h2>
+    <br>
+        <form action="#" method="post">
+    
+            <label class="p2"for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required pattern="[0-9]{5}-[0-9]{3}"><br><br>
+    
+            <label class = "p3" for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" name="logradouro" required><br><br>
+    
+            <label class="p4" for="numero">Número:</label>
+            <input type="text" id="numero" name="numero"><br><br>
+    
+            <label class="p5" for="complemento">Complemento:</label>
+            <input type="text" id="complemento" name="complemento"><br><br>
+    
+            <label class="p6" for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" required><br><br>
+    
+            <label class="p7" for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required><br><br>
+    
+            <label class="p8" for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required><br><br>
+    
+    
+            <button class="botao" type="submit">Enviar</button>
+           
+        </form>
+
+
+     
+</body>
+</html>
